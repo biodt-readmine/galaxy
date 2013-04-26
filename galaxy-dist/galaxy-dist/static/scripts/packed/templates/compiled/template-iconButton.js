@@ -1,0 +1,1 @@
+(function(){var b=Handlebars.template,a=Handlebars.templates=Handlebars.templates||{};a["template-iconButton"]=b(function(i,j,g,e,h){this.compilerInfo=[2,">= 1.0.0-rc.3"];g=g||i.helpers;e=e||i.partials;h=h||{};var c="",f,d=this;c+="\n";f=d.invokePartial(e.iconButton,"iconButton",j,g,e,h);if(f||f===0){c+=f}return c})})();
