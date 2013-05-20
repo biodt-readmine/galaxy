@@ -64,7 +64,6 @@
                     </reportPlugins>
                 </configuration>
             </plugin>
-			
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>selenium-maven-plugin</artifactId>
@@ -79,6 +78,13 @@
 							<logOutput>true</logOutput>
 						</configuration>
 					</execution>
+					<execution>
+						<id>stop</id>
+						<phase>post-integration-test</phase>
+						<goals>
+							<goal>stop-server</goal>
+						</goals>
+					</execution>					
 				</executions>
 			</plugin>			
         </plugins>
