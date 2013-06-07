@@ -1,10 +1,12 @@
 package y;
 
+import org.junit.experimental.categories.Category;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
+@Category(IntegrationTest.class)
 public class NewTest  {
         public void testBrowser() {
         HtmlUnitDriver driver = new HtmlUnitDriver();
