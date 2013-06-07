@@ -11,7 +11,6 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 @Category(IntegrationTest.class)
 public class NewTest {
 
-	@Test
 	@Category(y.IntegrationTest.class)
 	public void emptyTest1() throws Exception {
         HtmlUnitDriver driver = new HtmlUnitDriver();
